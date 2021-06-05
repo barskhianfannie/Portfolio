@@ -7,7 +7,7 @@ import './HeroSection.css';
 function HeroSection() {
     return (
         <div className='hero-container'>
-           <video src='public/videos/globe.mp4' autoPlay look muted/>
+           <video src='videos/globe.mp4' autoPlay look muted/>
            <h1> Fannie Barskhian</h1>
            <div className="profile-pic">
                <img src="images/zoom.jpg" alt=""></img>
