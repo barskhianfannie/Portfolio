@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "My Website",
   "main": "app.js",
+  "homepage": "fanniesportfolio.herokuapp.com",
   "scripts": {
     "start": "node app",
     "test": "test"
