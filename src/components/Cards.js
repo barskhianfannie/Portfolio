@@ -10,7 +10,7 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='/Portfolio/imagesstocks.png'
+              src='/Portfolio/images/stocks.png'
               text='Stocks Visualizer App'
               description = "Stocks Visualizer with graphs displaying various trends from API data."
               label='Python'
@@ -40,13 +40,13 @@ function Cards() {
               path='/services'
             />
             <CardItem
-              src='/Portfolio/imagesstruct.png'
+              src='/Portfolio/images/struct.png'
               text='Self Built Objects'
               label='C++'
               path='/products'
             />
             <CardItem
-              src='/Portfolio/imageswebsite.png'
+              src='/Portfolio/images/website.png'
               text='My Website'
               description = "Built this website to teach myself React, JavaScript, and CSS."
               label='React / JS / CSS'
