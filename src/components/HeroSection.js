@@ -7,10 +7,10 @@ import './HeroSection.css';
 function HeroSection() {
     return (
         <div className='hero-container'>
-           <video src='/Portfolio//public/videos/globe.mp4' autoPlay look muted/>
+           <video src='/Portfolio/videos/globe.mp4' autoPlay look muted/>
            <h1> Fannie Barskhian</h1>
            <div className="profile-pic">
-               <img src="/Portfolio/public/images/zoom.jpg" alt=""></img>
+               <img src="/Portfolio/images/zoom.jpg" alt=""></img>
            </div>
            <p> UC Berkeley Computer Science '23 | NASA JPL Academic Part Time </p>
            <div className="hero-btns">
