@@ -24,7 +24,7 @@ function Cards() {
               path='/services'
             />
              <CardItem
-              src='images/graphingcalc.png'
+              src='./Portfolio/public/images/graphingcalc.png'
               text='Graphing Calculator'
               description = "Graphing Calculator built using SFML framework and the shunting yard algorithm."
               label='C++'
@@ -33,7 +33,7 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/datatrainer.png'
+              src='./Portfolio/public/images/datatrainer.png'
               text='Neural Network'
               description = "Neural Network simulator to train data in automated driving."
               label='Python'
