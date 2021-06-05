@@ -14,21 +14,21 @@ function Cards() {
               text='Stocks Visualizer App'
               description = "Stocks Visualizer with graphs displaying various trends from API data."
               label='Python'
-              path='/Portfolio'
+              path='https://github.com/barskhianfannie/Stocks-Visulizer'
             />
             <CardItem
               src='/Portfolio/images/sql.png'
               text='SQL Database'
               description = "SQL Database built from scratch using various data structures."
               label='C++'
-              path='/Portfolio'
+              path='https://github.com/barskhianfannie/StackQueue'
             />
              <CardItem
               src='/Portfolio/images/graphingcalc.png'
               text='Graphing Calculator'
               description = "Graphing Calculator built using SFML framework and the shunting yard algorithm."
               label='C++'
-              path='/Portfolio'
+              path='https://github.com/barskhianfannie/Graphing_Calculator'
             />
           </ul>
           <ul className='cards__items'>
@@ -43,14 +43,14 @@ function Cards() {
               src='/Portfolio/images/struct.png'
               text='Self Built Objects'
               label='C++'
-              path='/Portfolio'
+              path='https://github.com/barskhianfannie/Objects'
             />
             <CardItem
               src='/Portfolio/images/website.png'
               text='My Website'
               description = "Built this website to teach myself React, JavaScript, and CSS."
               label='React / JS / CSS'
-              path='/Portfolio'
+              path='https://github.com/barskhianfannie/Portfolio'
             />
           </ul>
         </div>
