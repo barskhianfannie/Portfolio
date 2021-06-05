@@ -10,21 +10,21 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/stocks.png'
+              src='/Portfolio/imagesstocks.png'
               text='Stocks Visualizer App'
               description = "Stocks Visualizer with graphs displaying various trends from API data."
               label='Python'
               path='https://www.github.com'
             />
             <CardItem
-              src='images/sql.png'
+              src='/Portfolio/images/sql.png'
               text='SQL Database'
               description = "SQL Database built from scratch using various data structures."
               label='C++'
               path='/services'
             />
              <CardItem
-              src='./Portfolio/public/images/graphingcalc.png'
+              src='/Portfolio/images/graphingcalc.png'
               text='Graphing Calculator'
               description = "Graphing Calculator built using SFML framework and the shunting yard algorithm."
               label='C++'
@@ -33,20 +33,20 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='./Portfolio/public/images/datatrainer.png'
+              src='/Portfolio/images/datatrainer.png'
               text='Neural Network'
               description = "Neural Network simulator to train data in automated driving."
               label='Python'
               path='/services'
             />
             <CardItem
-              src='images/struct.png'
+              src='/Portfolio/imagesstruct.png'
               text='Self Built Objects'
               label='C++'
               path='/products'
             />
             <CardItem
-              src='images/website.png'
+              src='/Portfolio/imageswebsite.png'
               text='My Website'
               description = "Built this website to teach myself React, JavaScript, and CSS."
               label='React / JS / CSS'
