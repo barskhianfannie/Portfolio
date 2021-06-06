@@ -11,7 +11,7 @@ function HeroSection() {
            <div className="profile-pic">
                <img src="/Portfolio/images/zoom.jpg" alt=""></img>
            </div>
-           <p> UC Berkeley Computer Science '23 | NASA JPL Academic Part Time </p> 
+           <p> UC Berkeley Computer Science '23 | NASA JPL Academic Part Time - Radiation Effects</p> 
         </div>
     )
 }
