@@ -1,17 +1,15 @@
-import React from 'react';
+import React from 'react'
 import '../../App.css';
-import HeroSection from '../HeroSection';
 import Cards from '../Cards'
 import Footer from '../Footer';
 
-function Home () {
+function Projects() {
     return (
         <>
-            <HeroSection />
             <Cards />
             <Footer />
         </>
     )
 }
 
-export default Home;
+export default Projects;
