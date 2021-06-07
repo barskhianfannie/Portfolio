@@ -1,13 +1,14 @@
 import React from 'react';
 import '../../App.css';
-import HeroSection from '../HeroSection';
+import Hero from '../Hero';
 import Footer from '../Footer';
 import Interests from '../Interests';
+import SideBar from '../SideBar';
 
 function Home () {
     return (
         <>
-            <HeroSection />
+            <Hero />
             <Interests/>
             <Footer />
         </>
