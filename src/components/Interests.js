@@ -4,8 +4,8 @@ import './Cards.css';
 
 function Interests() {
     return (
-        <div className='cards'>
-            <h1>Personal Interests</h1>
+        <div className='cards' href = "#cards" id='cards'>
+            <h1 id="Personal_Interests">Personal Interests</h1>
             <div className='cards__container'>
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>

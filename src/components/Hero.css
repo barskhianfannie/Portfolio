@@ -1,85 +1,11 @@
-.hero-container {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    width: 100%;
-    margin: 0 auto;
-    padding: 4rem;
-
-  }
-  .hero-wrapper {
-    width: 50%;
-    padding-left: 140px;
-    display: flex;
-    flex:1;
-
-  }
-
-  .hero-btns {
-    margin-top: 32px;
-    font-family: 'Courier New', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
-  }
-  
-  .hero-btns .btn {
-    margin: 6px;
-    font-family: 'Courier New', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
-  }
-
-  @media screen and (max-width: 960px) {
-    .hero-container > h1 {
-      font-size: 70px;
-      margin-top: -150px;
-    }
-  }
-  
-  @media screen and (max-width: 768px) {
-    .hero-container > h1 {
-      font-size: 50px;
-      margin-top: -100px;
-    }
-  
-    .hero-container > p {
-      font-size: 30px;
-    }
-  
-    .btn-mobile {
-      display: block;
-      text-decoration: none;
-    }
-  
-    .btn {
-      width: 100%;
-    }
-  }
-
-  .hero-container {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    width: 100%;
-    margin: 0 auto;
-    padding: 4rem;
-  }
-  
-  h1 {
-    text-align: center;
-    color: #1f98f4;
-  }
-
- p {
-
-    color: #1f98f4;
-  }
-
-  
-  .hero__wrapper {
+.hero__wrapper {
     position: relative;
-    margin: 50px 0 45px;
+    margin: 50px 0 50px;
+    border-bottom: 1px dashed #1f98f4;
   }
   
   .hero__items {
+    max-width: 80%;
     margin-bottom: 24px;
   }
   
@@ -95,7 +21,7 @@
   .fa-certificate,
   .fa-trademark{
     color:rgb(31,152,244);
-    padding-right: 25px;
+    padding-right: 18px;
 }
 
   .hero-stats {
@@ -103,6 +29,7 @@
       flex-direction: column;  
       padding-block-start: 1400px; 
   }
+
   .school-logo,
   .nasa-logo,
   .mit-logo,
@@ -111,9 +38,9 @@
     flex-direction: row;
     color: rgb(56, 55, 55);
     justify-self: start;
-    cursor: pointer;
+    cursor: crosshair;
     text-decoration: none;
-    font-size: 13pt;
+    font-size: 10pt;
     display: flex;
     align-items: center;
     font-family: 'Courier New', 'Lucida Sans Unicode', 'Lucida Grande',
@@ -124,8 +51,8 @@
 
   
   .hero__item__info {
-    padding-left: 140px;
-    padding-right: 140px;
+    padding-left: 200px;
+    padding-right: 80px;
   }
   
   .hero__item__text {

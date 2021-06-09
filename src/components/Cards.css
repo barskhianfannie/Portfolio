@@ -6,6 +6,8 @@
   h1 {
     text-align: center;
     color: #1f98f4;
+      padding-top: 50px;
+      margin-top: -50px;
   }
   
   .cards__container {
@@ -22,7 +24,7 @@
     margin: 50px 0 45px;
   }
   
-  .cards__items {
+  .cards__items_i {
     margin-bottom: 24px;
   }
   
@@ -96,13 +98,13 @@
   
   .cards__item__text {
     color: rgb(31,152,244);
-    font-size: 18px;
+    font-size: 13px;
     line-height: 24px;
   }
 
   .cards__item__text1 {
-    color: rgb(255,255,255);
-    font-size: 12px;
+    color: rgb(31,152,244);
+    font-size: 11px;
     line-height: 24px;
   }
   
