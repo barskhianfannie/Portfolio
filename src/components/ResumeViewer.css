@@ -5,10 +5,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    padding-bottom:70px;
+    padding-top:70px;
     object-fit: contain;
 }
 
+<<<<<<< HEAD
 
 @media screen and (max-width: 960px) {
     .resume-container  {
@@ -32,3 +34,12 @@
         height: 90vh; 
     }
 }
+=======
+h1 {
+    text-align: center;
+    color: #1f98f4;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    margin-top: -50px;
+  }
+>>>>>>> Updates

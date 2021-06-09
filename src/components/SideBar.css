@@ -1,0 +1,51 @@
+.sidebar-left {
+    background: white;;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index:1;
+    position: fixed;     /* Fixed Sidebar (stay in place on scroll and position relative to viewport) */
+    height: 100%;
+    width: 80px;     /* Set the width of the sidebar */
+    z-index: 1;      /* Stay on top of everything */
+    top: 3.4em;      /* Stay at the top */
+    overflow-x: hidden;     /* Disable horizontal scroll */
+    padding-top: 10px;
+  }
+  
+  .sidebar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 60px;
+  }
+  
+  
+  .sidebar-item {
+    height: 80px;
+    color:rgb(0, 174, 255)
+  }
+
+  .fa-github-square,
+  .fa-linkedin{
+    font-size: 15pt;
+  }
+
+
+  
+  .sidebar-links {
+    color: rgb(0, 174, 255);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+
+  }
+  
+  .sidebar-links:hover {
+    border: 2px dashed rgb(0, 174, 255);
+    transition: all 0.2s ease-out;
+  }
+  

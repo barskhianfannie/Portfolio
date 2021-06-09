@@ -2,6 +2,7 @@ import React , {useState, useEffect} from 'react'
 import {Link} from 'react-router-dom'
 import {Button} from './Button.js'
 import './Navbar.css';
+import {Interests} from './Interests'
 
 
 
@@ -31,27 +32,24 @@ function Navbar() {
         <>
         <nav className = "navbar">
             <div className="navbar-container">
-                <Link to="/Portfolio" className="navbar-logo" onClick={closeMobileMenu}>
-                    FANNIE BARSKHIAN   <i class="far fa-id-badge"></i>
-                </Link>
                 <div className="menu-icon" onClick={handleClick}>
                     <i className={click ? 'fas fa-times': 'fas fa-bars'} />
                 </div>
                 <ul className={click ? 'nav-menu active': 'nav-menu'}>
                     <li className='nav-item'>
-                        <Link to='/Portfolio' className='nav-links' onClick={closeMobileMenu}>
+                        <a href='#Personal_Interests' className='nav-links' onClick={closeMobileMenu}>
                             About Me
-                        </Link>              
+                        </a>              
                     </li>
                     <li className='nav-item'>
-                        <Link to='/Portfolio/Projects' className='nav-links' onClick={closeMobileMenu}>
+                        <a href= '#Projects' className='nav-links' onClick={closeMobileMenu}>
                             Projects
-                        </Link>              
+                        </a>            
                     </li>
                     <li className='nav-item'>
-                        <Link to='/Portfolio/Resume' className='nav-links' onClick={closeMobileMenu}>
+                        <a href= '#Resume' className='nav-links' onClick={closeMobileMenu}>
                             Resume
-                        </Link>              
+                        </a>              
                     </li>
                     <li className='nav-item'>
                         <Link to='www.github.com/barskhianfannie' className='nav-links-mobile' onClick={closeMobileMenu}>
@@ -59,7 +57,7 @@ function Navbar() {
                         </Link>              
                     </li>
                 </ul>
-                {button && <Button buttonStyle='btn--outline'>Contact Me</Button>}
+                
             </div>
         </nav>
         </>
