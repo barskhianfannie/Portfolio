@@ -12,7 +12,7 @@ function HeroItem(props) {
             </div>
             <div className='hero_stats'>
                 <Link to="/Portfolio" className="school-logo" >
-                    <i class="fas fa-school"></i> University of California, Berkeley - Computer Science '23
+                    <i class="fas fa-school"></i> University of California, Berkeley - Computer Science '22
                 </Link>
                 <Link to="/Portfolio" className="nasa-logo" >
                     <i class="fas fa-satellite"></i> NASA's Jet Propulsion Laboratory APX - Radiation Effects Group
@@ -20,9 +20,9 @@ function HeroItem(props) {
                 <Link to="/Portfolio" className="mit-logo" >
                     <i class="fad fa-certificate"></i> Massachusettes Inst. of Technology - New Ventures Leadership
                 </Link>
-                <Link to="/Portfolio" className="levitate-logo" >
-                    <i class="fas fa-trademark"></i> Levitate Society
-                </Link>
+                <a href="https://levitatesociety.com" className="levitate-logo" >
+                    <i class="fas fa-trademark"></i> Levitate Society (Owner/Designer)
+                </a>
             </div>
         </li>  
         </>

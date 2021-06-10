@@ -5,15 +5,15 @@
   }
   
   .hero__items {
-    max-width: 80%;
+    max-width: 100%;
     margin-bottom: 24px;
   }
   
   .hero__item {
     display: flex;
     flex: 1;
-    margin: 0 1rem;
     border-radius: 40px;
+    
   }
  
   .fa-school,
@@ -26,7 +26,7 @@
 
   .hero-stats {
       display: flex;
-      flex-direction: column;  
+      flex-direction: row;  
       padding-block-start: 1400px; 
   }
 
@@ -47,6 +47,7 @@
     'Lucida Sans', Arial, sans-serif;
     padding-bottom: 20px;
   }
+
  
 
   
@@ -60,12 +61,45 @@
     font-size: 18px;
     font-family: 'Courier New', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
+  }
+
+  @media screen and (max-width: 960px) {
+    .hero__item__text {
+      font-size: 12px;
+    }
+    .hero__item__info {
+      padding-left: 100px;
+    }
+    .hero__item__text1 {
+      font-size: 12px;
+    }
+
+    .hero__item {
+      display: flex;
+      flex: 1;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .hero-stats {
+      display: flex;
+      flex-direction: row;  
+  }
+    .school-logo,
+    .nasa-logo,
+    .mit-logo,
+    .levitate-logo {
+      padding-left: 100px;
+    }
+
   }
 
   .hero__item__text1 {
     color: rgb(31,152,244);
-    font-size: 50px;
+    font-size: 45px;
     font-family: 'Courier New', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
   }
@@ -75,10 +109,22 @@
     .hero__items {
       display: flex;
     }
+
+    .hero__item {
+      display: flex;
+      flex: 1;
+      border-radius: 20px;
+    }
   }
   
   @media only screen and (max-width: 1024px) {
     .hero__item {
       margin-bottom: 2rem;
+    }
+
+    .hero__item {
+      display: flex;
+      flex: 1;
+      border-radius: 20px;
     }
   }

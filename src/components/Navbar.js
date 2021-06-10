@@ -51,11 +51,6 @@ function Navbar() {
                             Resume
                         </a>              
                     </li>
-                    <li className='nav-item'>
-                        <Link to='www.github.com/barskhianfannie' className='nav-links-mobile' onClick={closeMobileMenu}>
-                            Contact Me
-                        </Link>              
-                    </li>
                 </ul>
                 
             </div>
