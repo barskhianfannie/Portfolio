@@ -7,10 +7,11 @@ function ResumeViewer() {
             <h1 id="Resume">Resume</h1>
             <a href="/Portfolio/Images/resume.pdf" download="FannieBarskhiansResume">Download</a>
            <div className="resume-pic">
-               <img src="/Portfolio/Images/resume.png" alt=""></img>
+               <img src="/Portfolio/images/resume.png" alt=""></img>
            </div>
            
         </div>
     )
-    }
+}
+
 export default ResumeViewer;

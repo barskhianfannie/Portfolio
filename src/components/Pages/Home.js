@@ -1,15 +1,22 @@
 import React from 'react';
 import '../../App.css';
-import HeroSection from '../HeroSection';
-import Cards from '../Cards'
+import Hero from '../Hero';
+import Footer from '../Footer';
+import Interests from '../Interests';
+import SideBar from '../SideBar';
+import Cards from '../Cards';
+import ResumeViewer from '../ResumeViewer';
 
 function Home () {
     return (
         <>
-            <HeroSection />
-            <Cards />
+            <Hero />
+            <Interests/>
+            <Cards/>
+            <ResumeViewer/>
+            <Footer />
         </>
     )
 }
 
-export default Home
+export default Home;
